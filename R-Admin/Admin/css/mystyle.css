@@ -1,0 +1,98 @@
+.top_bar{
+    background: orange;
+    margin-top: 10px;
+}
+.social_icons{
+    margin-right: 5px;
+}
+.contact_info{
+    color: azure;
+    font-size: 16px;
+}
+.contact_gap1{
+    margin-right: 13px;
+}
+.my_menu{
+    margin-top: 29px;
+}
+.my_menu .navbar-default{
+    background: none;
+    border:none;
+}
+.my_menu .navbar-nav .active a,.my_menu .navbar-nav .active a:hover{
+    background: orange;
+    color: azure;
+}
+.my_menu .navbar-nav li a:hover{
+    background: orange;
+    color: azure;
+}
+@media (max-width:1200px){
+    .my_menu .pull-right{float:none !important;}
+}
+.lan{
+    margin-top: 20px;
+}
+.our_img{
+    margin-top: 20px;
+    background: radial-gradient(circle,cadetblue,darkslateblue);
+    padding: 25px 0px;
+}
+.our_img h1{
+    color:antiquewhite; 
+}
+.top{
+    margin-top: 20px;
+}
+.top2{
+    margin-top: 40px;
+}
+@media (max-width:603px){
+    .our_img [class*="col-"]{
+    margin-bottom: 25px;
+
+}
+}
+ 
+.contact{
+    padding: 1px 0 280px;
+    text-align: center;
+    background: radial-gradient(circle,lightcoral,darkred);
+}
+    .contact p {
+        padding-bottom: 80px;
+        color: antiquewhite;
+}
+    .contact h2{
+        color: navy;
+        margin: 20px 0 20px;
+        text-align: center;
+    }
+    .contact .input-group{
+        margin-bottom: 25px;
+    }
+    .contact .form-control{
+        border-radius:0 !important;
+        
+    }
+    .contact span{
+        border-radius: 0 !important;
+    }
+    .contact .btn{
+        margin-top: -17px;
+        border-radius: 2;
+        width: 100%;
+        font-size: 18px;
+        background-color: skyblue;
+        color: indigo!important;
+    }
+    .contact .btn:hover{
+        background-color:  crimson !important;
+        color: khaki !important;
+    }
+.imgcontainer {
+    text-align: center;
+}
+.psw{
+    color: beige;
+}
